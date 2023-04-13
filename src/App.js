@@ -3,6 +3,7 @@ import AddSubtractDemo from "./AddSubtractDemo";
 import DebounceDemo from "./DebounceDemo";
 import FetchData from "./FetchDemo";
 import LocalStorageDemo from "./LocalStorageDemo";
+import ToggleDemo from "./ToggleDemo";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <DebounceDemo />
       <hr />
       <FetchData />
+      <hr />
+      <ToggleDemo />
     </div>
   );
 }
